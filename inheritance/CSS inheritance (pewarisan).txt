@@ -1,0 +1,16 @@
+CSS inheritance (pewarisan)
+adalah
+sebuah elemen mewarisi beberapa nilai dari properti yang dimiliki oleh elemen parentnya.
+
+properti yang di wariskan
+
+-color
+-font
+-letter-spacing
+-line-height
+-list-style
+-text-align
+-text-indent
+-text-transform
+-visibility
+-white-space

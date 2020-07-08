@@ -1,0 +1,9 @@
+ body {
+ 	font-family: arial;
+ 	color: darkgrey;
+ }
+
+ a {
+ 	color: inherit;
+ 	/*inherit untuk (agar si a mengikuti perintah parent*/
+ }

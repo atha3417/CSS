@@ -1,0 +1,40 @@
+/*pseudo class berhubungan link
+macamya = 
+:link(style default pada sebuah link (a yang memiliki href), :hover(style ketika kursor mouse berada diatas sebuah link/elemen, :active(style ketika sebuah link di klik (keadaan aktif), :visited(style ketika link sdh pernah dikunjungi (menggunakan browser yg sama)) -->
+<!-- pseudo class 2 berhubungan dengab posisi elemen (1)
+macamnya = 
+:first-child(memilih elemen pertama dari sebuah parent (elemen pembungkusnya), :last-child(memilih elemen terakhir dari sebuah parent(elemen pembungkusnya)), nth-child(n)(memilih elemen ke-n dari sebuah parent(elemen pembungkusnya) n bisa berarti (1), (2), ... atau pola (2n), (3n+2), (4n-1) atau ganjil / genap (even)/(odd))*/
+/*pseudo class yg berhubungan dgn posisi elemen (2)
+macamnya = :first-of-type(memilih elemen pertama dari sebuah jenis / tipe tag
+:last-of-type(memilih elemen terakhir dr sebuah jenis / tipe tag)*/
+
+.hello:link {
+	color: orange
+}
+
+.hello:hover {
+	font-family: arial;
+	font-size: 20px
+}
+
+.hello:active {
+	font-style: italic;
+}
+
+.hello:visited {
+	color: red;
+
+}
+
+/*li:first-child a {
+	color: red;
+}*/
+
+li:nth-child(odd) a {
+	color: green;
+}
+
+p:first-of-type {
+	color: blue;
+}
+

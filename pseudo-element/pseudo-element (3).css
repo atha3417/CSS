@@ -1,0 +1,33 @@
+body {
+	font-family: arial;
+}
+
+h2 {
+	float: left;
+	width: 170px;
+}
+
+div {
+	float: left;
+	width: 200px;
+	background: #727272;
+	padding: 10px;
+	border-radius: 6px;
+	color: #fff;
+	position: relative;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+div::before {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 12px solid transparent;
+	border-bottom: 12px solid transparent;
+	border-right: 12px solid #727272;
+	position: absolute;
+	top: 16px;
+	left: -12px;
+}

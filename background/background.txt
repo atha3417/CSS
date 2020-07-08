@@ -1,0 +1,13 @@
+background
+
+background-color
+mengatur warna pada background
+
+background-image
+mengatur gambar yang akan digunakan keyboard
+
+background-position
+mengatur posisi gambar pada background
+
+background-repeat
+mengatur jenis pengulangan gambar pada background

@@ -1,0 +1,24 @@
+textstyling
+
+a.color
+memberi warna pada tulisan
+
+b.text-align
+mengatur format paragraf / teks
+
+c.text-indent
+memberi identitas pada paragraf / teks
+
+d.text-decoration
+mengatur dekorasi pada teks
+
+e.text-transform
+mengubah jenis huruf menjadi huruf besar, kecil / kapital
+
+f.letter-spacing
+mengatur spasi antar huruf
+
+g.word-spacing
+mengatur spasi antar kata
+
+a. ada "nama warna(red, light, green), hexadecimal (#ff0000, #20b2aa, #4169e1), RGB (red, green, blue<rgb(255,0,0), rgb(32,178,170), rgb(65,105,225)>)"

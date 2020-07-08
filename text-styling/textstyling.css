@@ -1,0 +1,29 @@
+h1 {
+	font-size: 100px;
+	/*color: #7603ec;*/
+	/*color: gold;*/
+	/*color: rgb(115,80,212);*/
+	color: rgb(115,80,212);
+	/*text-decoration ada = none,underline,overline,line-through*/
+	text-decoration: underline;
+	/*text-transform ada = none,lowercase,uppercase,capitalize*/
+	text-transform: lowercase;
+}
+
+p {
+	/*text align = justify,right,left,center*/
+	text-align: justify;
+	text-indent: 100px;
+	/*text-indent untuk awal paragraf*/
+	text-transform: uppercase;
+	/*letter-spacing ada = normal,px*/
+	letter-spacing: 5px;
+	/*letter-spacing untuk jarak antar huruf*/
+	word-spacing: 5px;
+	/*word-spacing untuk jarak antar kata*/
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}

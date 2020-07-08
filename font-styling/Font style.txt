@@ -1,0 +1,27 @@
+a.font-family
+mengatur jenis font yg akan digunakan
+
+b.font-size
+mengatur ukuran font
+
+c.font-weight
+mengatur ketebalan font
+
+d.font-variant
+mengubah font menjadi small caps
+
+e.font-style
+mengubah font menjadi bercetak miring
+
+f.line-height
+mengatur spasi antar baris
+
+a. (nama font,generic family)
+cth:
+body {
+	font-family: arial, verdana, sans-serif;
+		        |   nama font   ||generic family|
+}
+p {
+	font-family: "Times New Roman", serif:
+}

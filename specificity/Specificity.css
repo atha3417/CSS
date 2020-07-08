@@ -1,0 +1,17 @@
+/*membandingkan/Specificity
+0 0 0 0
+inline,id,class,element
+cth : 
+#p1 = 0 1 0 0
+	    vs
+p   = 0 0 0 1*/
+/*kalkulator Specificity di
+http://specificity.keegan.st*/
+
+#p1 {
+	color: red;
+}
+
+p {
+	color: green;
+}

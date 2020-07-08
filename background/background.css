@@ -1,0 +1,10 @@
+body {
+	height: 3000px;
+	background-color: white;
+	background-image: url(tree.png);
+	background-repeat: no-repeat;
+	/*background-repeat ada repeat-x dan repeat-y dan non-repeat*/
+	background-position: top right;
+	background-attachment: fixed;
+	/*background-attachment: fixed untuk biar tetap ngikut*/
+/*/	urutan singkatan = background: lightgreen url(bg.png) top left no-repeat;*/

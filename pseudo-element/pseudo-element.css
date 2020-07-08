@@ -1,0 +1,75 @@
+div.div {
+	width: 100px;
+	height: 100px;
+	background: lightblue;
+	font-size: 13px;
+}
+
+div.div::after {
+	content: " World!";
+}
+
+div.div::before {
+	content: "Hi, ";
+}
+
+div.div2 {
+	width: 100px;
+	height: 100px;
+	background: lightblue;
+	position: relative;
+	margin: 20px auto;
+}
+
+div.div2::before, div.div2::after {
+	content: "";
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+
+div.div2::before {
+	top: -15px;
+	left: -15px;
+	background-color: salmon;
+}
+
+div.div2::after {
+	right: -15px;
+	bottom: -15px;
+	background-color: lightgreen;
+}
+
+/*h1::before {
+	content: url(house.png) " ";
+}*/
+
+h1::before {
+	content: "";
+	display: block;
+	background: url(house.png) no-repeat;
+	background-size: 20px;
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin: 8px 5px 0 0;
+}
+
+@font-face {
+	font-family: 'Glyphicons';
+	src: url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff') format('woff');
+}
+
+i {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font: normal normal 16px/1 'Glyphicons';
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	margin-right: 4px;
+}
+
+i::before {
+	content: '\e104';
+}
