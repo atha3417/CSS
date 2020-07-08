@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pseudo Class Pada Input</title>
+	<style>
+		input:checked {
+			width: 50px;
+		}
+		/*enabled, disabled, invalid*/
+		input:enabled {
+			border: 2px solid blue;
+		}
+
+		input:disabled {
+			border: 2px solid red;
+		}
+
+		input:invalid {
+			background: red;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<h1>input</h1>
+	<input type="checkbox">male
+	<input type="checkbox" checked>female
+	<br><br>
+	<input type="text" placeholder="nama lengkap">
+	<input type="text" placeholder="nama pendek">
+	<input type="text" placeholder="kota asal" disabled>
+	<input type="email" placeholder="email">
+	<br><br><br><br>
+	Sekolah Koding
+
+</body>
+</html>
